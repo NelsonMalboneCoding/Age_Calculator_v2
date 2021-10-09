@@ -12,6 +12,48 @@
         <div class="title">
           <h1>Age Calculator</h1>
         </div>
+        <!-- blockSections -->
+        <div class="blockSections">
+          <p class="infoSections">Month</p>
+          <input type="text"
+                 name="month"
+                 id="month"
+                 placeholder="MM"
+                 required
+                 minlength="1"
+                 maxlength="2">
+        </div>
+
+        <p class="infoSections">Date</p>
+        <input type="text"
+               name="date"
+               id="date"
+               placeholder="DD"
+               required
+               minlength="1"
+               maxlength="2">
+      </div>
+      
+      <p class="infoSections">Year</p>
+      <input type="text"
+             name="year"
+             id="Year"
+             placeholder="YYYY"
+             required
+             minlength="4"
+             maxlength="4">
+    </div>      
+
+    <!-- btn -->
+    <div class="areaBtn">
+      <div class="enter">
+        <input type="submit"
+               name="submit"
+               value="Submit"
+               onclick="age()">
+      </div>
+    </div>
+    <div id="age"></div>
       </form>
     </div>
   </body>
